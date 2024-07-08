@@ -1,0 +1,172 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/main-logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="vh-100">
+    <!-- Nav -->
+    <nav class="navbar bg-dark fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <div class="">
+          <i class="fa-solid fa-user-secret text-white fs-1"></i>
+          <a href="#home" class="navbar-brand fs-2">Dokan Shop</a>
+        </div>
+        <div class="navbar" id="navbarNavDropdown">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Latest-Products">Latest Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Top-Deals">Top Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Log In</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="true"
+                >Pages</a
+              >
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Men</a></li>
+                <li><a class="dropdown-item" href="#">Women</a></li>
+                <li><a class="dropdown-item" href="#">Kids</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav End -->
+    <!-- Form -->
+    <section>
+      <div
+        class="container sign-in text-center d-flex w-50 justify-content-center"
+      >
+        <div
+          class="form-division w-50 row justify-content-center"
+          action="submit"
+        >
+          <h4 class="mb-4">Sign In</h4>
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <a class="text-white fb" href="#">Sign In With Facebook</a>
+            <a class="text-white gg" href="#"> Sign In With Google </a>
+          </div>
+          <h5 class="mt-4 mb-2">Or</h5>
+          <form class="row">
+            <label class="" id="userName" for="userName"></label
+            ><input
+              spellcheck="false"
+              title="username must be correct to be able to access your account"
+              type="text"
+              placeholder="User Name"
+              id="username"
+              value=""
+              autofocus=""
+              autocomplete="off"
+            />
+            <label class="" for="password" id="password"></label>
+            <input
+              type="password"
+              placeholder="Password"
+              id="password"
+              name="password"
+              value=""
+              title="password must be correct and not less than 4 character to be able to access your account"
+            />
+            <div class="remember-me d-flex align-items-baseline mt-2">
+              <input type="checkbox" />
+              <p class="fw-semibold ms-2">Remember Me</p>
+            </div>
+            <button class="submit mt-2" type="submit">Sign In</button>
+          </form>
+          <a
+            href="#"
+            class="text-start fw-light text-decoration-none mt-5 mb-3"
+          >
+            Forget Password?
+          </a>
+          <span></span>
+          <button class="sign-up-new-acc w-100">Sign Up New Account</button>
+        </div>
+      </div>
+    </section>
+    <!-- Form End -->
+    <!-- Footer -->
+    <section class="m-0">
+      <div class="container-fluid bg-dark text-white text-center">
+        <div class="container pt-5 pb-3">
+          <div class="row">
+            <div
+              class="footer-top-element d-flex align-items-center m-auto col-lg-3 col-md-6 col-12 text-uppercase"
+            >
+              <i class="fa-solid fa-user-secret"></i>
+              <h3 class="align-middle">Dokan Shop</h3>
+            </div>
+            <div class="footer-top-element col-lg-3 col-md-6 col-12">
+              <h4>Shopping & Categories</h4>
+              <ul class="row gap-3 fw-light">
+                <li class="">Men's shopping</li>
+                <li>Women's shopping</li>
+                <li>Kids's shopping</li>
+                <li>Accessories</li>
+              </ul>
+            </div>
+            <div class="footer-top-element col-lg-3 col-md-6 col-12">
+              <h4>Useful Links</h4>
+              <ul class="row gap-3 fw-light">
+                <li>Home Page</li>
+                <li>About Us</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="footer-top-element col-lg-3 col-md-6 col-12">
+              <h4>Help & Information</h4>
+              <ul class="row gap-3 fw-light">
+                <li class="">Help</li>
+                <li>FAQ'S</li>
+                <li>Track Your Shipping</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="border-top pt-3 border-white fw-light ls-1">
+              Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.
+            </p>
+            <div class="d-flex gap-3 justify-content-center">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-whatsapp"></i
+              ><i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer End -->
+  </body>
+</html>

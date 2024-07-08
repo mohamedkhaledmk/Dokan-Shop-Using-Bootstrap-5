@@ -150,3 +150,68 @@ ul {
 .footer-bottom .d-flex .fa-instagram:hover {
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
 }
+
+/* --------------------------------------------LOGIN-------------------------------------------------- */
+.sign-in {
+  padding: 100px 15px;
+}
+
+.form-division {
+  background-color: #f3f3f3;
+  border: 10px solid #f3f3f3;
+  outline: outset #f3f3f3;
+  border-radius: 10%;
+  padding: 45px;
+}
+.fb,
+.gg {
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+}
+.fb {
+  background-color: blue;
+  outline: outset blue;
+}
+.gg {
+  background-color: crimson;
+  outline: outset crimson;
+}
+.check-me {
+  margin: 5px;
+}
+.form-division input {
+  color: crimson;
+  border: #f3f3f3;
+  outline: #f3f3f3;
+  outline-style: inset;
+  padding: 8px;
+  margin: 2px;
+}
+.form-division button {
+  color: white;
+  padding: 5px;
+  border-radius: 14px;
+  border: hidden;
+  width: 100%;
+}
+.sign-in .submit {
+  background-color: green;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.form-division form {
+  padding: 0;
+}
+.sign-up-new-acc {
+  background-color: blue;
+}
+.sign-in span {
+  height: 1px;
+  width: 100%;
+  margin: 22px 0px;
+  background-color: darkgray;
+}
